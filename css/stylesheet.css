@@ -22,21 +22,25 @@ footer {
   background-color: #343330;
   text-align: center;
   color: #FCF7F8;
+  border: #343330 solid;
 }
 
 #sidebar{
   background-color:hsl(91, 42%, 53%);
   width:20%;
   color: #FCF7F8;
-  border-top: hsl(91, 42%, 53%) solid ;
-  border-bottom: hsl(91, 42%, 53%) solid 60px;
 }
+
 
 .icons{ 
   width: 3rem;
   height: auto;
   border-radius: 50%;
-margin-left: 1rem;
+  margin-left: 1rem;
+}
+
+#content{
+  width: 80%;
 }
 
 
@@ -54,4 +58,8 @@ margin-left: 1rem;
 
 .list{
   list-style: none;
+}
+
+.main{
+  display: flex;
 }
