@@ -8,14 +8,16 @@ body{
   text-align: center;
   background-color: #343330;
   color: #FCF7F8;
+  border:#343330 solid ;
 }
 
 #headshot{
   width: 250px;
   height: 250px;
-  margin-top: 20px;
   border: solid grey 10px;
   border-radius: 50%;
+  position: relative;
+  top: 20px;
 }
 
 footer {
@@ -25,12 +27,17 @@ footer {
   border: #343330 solid;
 }
 
+#ul{
+  padding-left: 0%;
+}
+
 #sidebar{
   background-color:hsl(91, 42%, 53%);
   width:20%;
   color: #FCF7F8;
+  padding: 1rem;
+  width: 15%;
 }
-
 
 .icons{ 
   width: 3rem;
@@ -40,12 +47,14 @@ footer {
 }
 
 #content{
-  width: 80%;
+  width: 85%;
+  background-color:cornsilk ;
 }
 
 
 #Education{
   margin-left: 50px;
+ margin-right: 20%;
 }
 
 #Experience{
@@ -62,4 +71,12 @@ footer {
 
 .main{
   display: flex;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+color: rgb(83, 69, 52);
 }
