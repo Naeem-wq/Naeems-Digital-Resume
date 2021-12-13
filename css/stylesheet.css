@@ -29,6 +29,7 @@ footer {
 
 #ul{
   padding-left: 0%;
+
 }
 
 #sidebar{
@@ -46,6 +47,7 @@ footer {
   margin-left: 1rem;
 }
 
+
 #content{
   width: 85%;
   background-color:cornsilk ;
@@ -59,6 +61,7 @@ footer {
 
 #Experience{
   margin-left: 50px;
+  margin-right: 20%;
 }
 
 #Skills{
